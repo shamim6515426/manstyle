@@ -1,0 +1,29 @@
+@media screen and ( max-width:992px) {
+     .icon-box{
+          display: grid;
+          grid-template-columns: auto auto auto;
+     }
+}
+
+@media screen and ( min-width:992px) {
+     .mid-navber{
+          display: flex;
+          justify-content: space-between;
+     }
+.coureses-box{
+     display: flex;
+     justify-content: space-between;
+}
+.mid-about{
+     display: flex;
+     justify-content: space-between;
+}
+
+.icon-box{
+     display: grid;
+     grid-template-columns: auto auto auto auto auto auto;
+}
+    .banner-box{
+     display: flex;
+    }
+}     
